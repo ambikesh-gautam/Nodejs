@@ -5,6 +5,7 @@
 Node.js is like a superhero playground for JavaScript. It runs JavaScript outside web browsers, handles many tasks at once, and lets you use the latest JavaScript tricks without waiting for updates. If you know JavaScript for websites, you can use it with Node.js too, no new language needed!
 
 
+<<<<<<< HEAD
 ## How much JavaScript do you need to know to use Node.js?
 
 As a beginner, it's hard to get to a point where you are confident enough in your programming abilities. While learning to code, you might also be confused at where does JavaScript end, and where Node.js begins, and vice versa.
@@ -57,6 +58,8 @@ The following concepts are also key to understand asynchronous programming, whic
 
 [The event loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Event_loop)
 
+=======
+>>>>>>> fce932c5444cbc972d12184123bcc199f738b619
 ## Installation
 
 Install my-project with npm
@@ -71,9 +74,12 @@ Install my-project with npm
 ## Documentation
 
 [Documentation](https://nodejs.org/en/learn/getting-started/introduction-to-nodejs)
+<<<<<<< HEAD
 
 
 ## Next Js for beginners
 
 #### What is node js?
 Node.js is like a superhero playground for JavaScript. It runs JavaScript outside web browsers, handles many tasks at once, and lets you use the latest JavaScript tricks without waiting for updates. If you know JavaScript for websites, you can use it with Node.js too, no new language needed!
+=======
+>>>>>>> fce932c5444cbc972d12184123bcc199f738b619
