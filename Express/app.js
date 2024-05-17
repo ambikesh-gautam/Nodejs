@@ -1,6 +1,7 @@
 const express    = require('express');
 const app        = express();
 const bodyParser = require('body-parser');
+const path = require('path');
 /* The lines `const adminRoute = require('./routes/admin');` and `const shopRoute =
 require('./routes/shop');` are importing external modules or files in the Node.js application. In
 this case, the application is requiring two separate files, `admin.js` and `shop.js`, located in the
@@ -33,6 +34,7 @@ middleware, it sets the HTTP status code to 404 (Not Found) and sends a response
 'Oops 404 Not Found'. This is a way to handle requests for routes that are not defined in the
 application. */
 app.use((req,res,next)=>{
-    res.status(404).send('Oops 404 Not Found');
+    // res.status(404).send('Oops 404 Not Found');
+    res.status(400).sendFile(path.join(__dirname, 'views', '404.html') );
 });
 app.listen(3000);
